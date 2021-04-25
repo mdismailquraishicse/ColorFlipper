@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f5f8;
+}
+
+
+.nav-center{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(63, 26, 46, 0.966);
+    border-bottom: #fff solid 2px;
+    padding: 20px 10px;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.nav-center ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-center h4{
+    color: #fff;
+    margin-left: 20px;
+}
+
+.nav-center li{
+    display: inline;
+    text-decoration: none;
+    margin: 0 10px;
+    }
+.nav-center .nav-links a{
+    color: #fff;
+    text-decoration: none;
+}
+
+main{
+                                                                             
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+}
+
+main .container h2{
+    background-color: rgba(63, 26, 46, 0.966);
+    padding: 20px 5px;
+}
+
+main .container div{
+    color: darkcyan
+    ;
+}
+/* main .container #btn{
+    margin-top: 30px;
+    padding: 5px 10px;
+    border: #000 solid 1px;
+    color: #fff;
+    background: deeppink;
+} */
+
+
+main #btn{
+    margin-top: 20px;
+    background-color: rgba(63, 26, 46, 0.966);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight:  bold;
+    text-transform: uppercase;
+}
+
+main #btn:hover{
+    background: #fff;
+    color: #000;
+}
